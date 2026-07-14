@@ -1,31 +1,28 @@
-# Fernanda Moreno
+# Fernanda Moreno – Technical Writing Portfolio
 
-## Technical Writing Portfolio
-
-Welcome!
-
-This portfolio contains examples of technical documentation I created to demonstrate my technical writing skills.
+Welcome! This portfolio showcases technical documentation samples demonstrating my experience in cloud technologies, software documentation, and technical communication.
 
 ## Documentation Samples
 
+- About Me
+- Cloud Monitoring Runbook
 - User Guide
-- Cloud Runbook
 - API Documentation
-- Troubleshooting Guide
 - Release Notes
+- Troubleshooting Guide
 
-## Technical Skills
+## Skills
 
+- Technical Writing
 - Markdown
-- Git
-- GitHub
-- Python
+- Git & GitHub
 - AWS
 - Azure
+- Python
 - SQL
+- Docs as Code
 
 ## Contact
 
-LinkedIn:
-
-Email:
+- LinkedIn: https://linkedin.com/in/your-profile
+- GitHub: https://github.com/Fermorga
