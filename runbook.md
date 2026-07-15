@@ -1,54 +1,45 @@
-# Cloud Monitoring Runbook
+# Cloud Monitoring Runbook: Accessing Amazon CloudWatch
 
 ## Purpose
-
-This runbook explains how to access Amazon CloudWatch from the AWS Management Console to monitor cloud resources and system health.
+This runbook defines the operational procedure for accessing Amazon CloudWatch via the AWS Management Console to monitor infrastructure health, review performance metrics, and triage active system alarms.
 
 ## Audience
-
-Cloud Engineers, SRE Engineers, and IT Support teams.
+This document is intended for Cloud Engineers, Site Reliability Engineers (SRE), and IT Support teams responsible for infrastructure monitoring.
 
 ## Prerequisites
+* An active AWS Account.
+* Valid AWS IAM user credentials or Identity Center single sign-on access.
+* Assigned IAM permissions granting read-access to CloudWatch resources (CloudWatchReadOnlyAccess or equivalent custom policy).
 
-- AWS account
-- Valid AWS credentials
-- Permission to access CloudWatch
+## Operating Procedure
 
-## Procedure
+### Step 1: Authenticate to the AWS Management Console
+1. Navigate to the AWS Sign-In portal.
+2. Choose your user type (Root user or IAM user).
+3. Input your Account ID, username, password, and complete the Multi-Factor Authentication (MFA) challenge if prompted.
 
-### Step 1: Sign in to the AWS Management Console
+### Step 2: Navigate to the CloudWatch Service
+1. Locate the global search bar at the top of the AWS Management Console homepage.
+2. Type "CloudWatch" into the search field.
+3. Select CloudWatch from the dropdown services list to open the service console dashboard.
 
-Log in to the AWS Management Console using your AWS account credentials.
-
-![AWS Management Console](images/aws-console.png)
-
-### Step 2: Open CloudWatch
-
-In the search bar at the top of the console, type **CloudWatch** and select the service from the list.
-
-### Step 3: Review Monitoring Information
-
-Use the CloudWatch dashboard to:
-
-- View metrics
-- Monitor alarms
-- Check logs
-- Review dashboards
-- Monitor application performance
+### Step 3: Audit System Metrics and Health
+Once inside the CloudWatch console, navigate the left-hand menu sidebar to perform the following operations:
+* Alarms: Review "All alarms" to check for any active "In alarm" states indicating system failures.
+* Metrics: Select "All metrics" to visualize resource utilization patterns (e.g., EC2 CPU Utilization, RDS Memory).
+* Logs: Select "Log Groups" to query system applications or infrastructure event streams.
 
 ## Verification
-
-Verify that the CloudWatch dashboard loads successfully and displays your available resources.
+Verification is successful when the CloudWatch home dashboard loads without permission errors, displaying active resource metrics and status widgets.
 
 ## Troubleshooting
 
-| Issue | Solution |
-|--------|----------|
-| Unable to log in | Verify your AWS credentials and MFA settings. |
-| CloudWatch does not appear | Check that your AWS account has the required permissions (IAM). |
-| No metrics are displayed | Confirm that resources are running and sending metrics to CloudWatch. |
+| Issue | Potential Cause | Resolution Steps |
+| :--- | :--- | :--- |
+| Authentication failure / Access Denied | Invalid credentials or expired session tokens. | Re-verify credentials, reset MFA tokens, or contact your IAM administrator. |
+| "Not Authorized" warning on CloudWatch dashboard | Missing explicit IAM read permissions for CloudWatch. | Ensure your IAM user or role has the CloudWatchReadOnlyAccess policy attached. |
+| Empty metrics or missing log streams | Target cloud resources are stopped or the CloudWatch agent is misconfigured on the host machine. | Check target instance run-states and verify that the CloudWatch agent daemon is running. |
 
 ## Related Documentation
-
-- AWS CloudWatch User Guide
-- AWS Identity and Access Management (IAM) Documentation
+* Amazon CloudWatch User Guide
+* AWS Identity and Access Management (IAM) Documentation

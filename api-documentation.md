@@ -1,30 +1,11 @@
-# JSONPlaceholder API
+# JSONPlaceholder Posts API Reference
 
-## Endpoint
+The Posts API allows clients to interact with mock post resources. This endpoint is commonly used for testing front-end integrations and verifying HTTP request behaviors.
 
-GET /posts
+## Get All Posts
 
-## Request
+Retrieves a list of all post entities stored in the mock database.
 
+### HTTP Request
 ```http
-GET https://jsonplaceholder.typicode.com/posts
-```
-
-## Response
-
-```json
-[
-  {
-    "id":1,
-    "title":"..."
-  }
-]
-```
-
-## Status Codes
-
-200 OK
-
-404 Not Found
-
-500 Server Error
+GET [https://jsonplaceholder.typicode.com/posts](https://jsonplaceholder.typicode.com/posts)

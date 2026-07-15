@@ -1,28 +1,25 @@
-# Fernanda Moreno – Technical Writing Portfolio
+# Technical Writing Portfolio - Fernanda Moreno
 
-Welcome! This portfolio showcases technical documentation samples demonstrating my experience in cloud technologies, software documentation, and technical communication.
+Welcome to my technical writing portfolio. This repository contains documentation samples demonstrating my ability to translate technical concepts, architectures, and procedures into clear, structured, and user-centric documentation.
 
-## Documentation Samples
+As a Computer Science Engineering graduate with cloud infrastructure experience, I specialize in bridging the gap between complex engineering environments and end-users. This portfolio showcases a Docs-as-Code approach using Markdown and version control.
 
-- About Me
-- Cloud Monitoring Runbook
-- User Guide
-- API Documentation
-- Release Notes
-- Troubleshooting Guide
+## Portfolio Directory
 
-## Skills
+* [User Guide](user-guide.md) – A structured, step-by-step installation and configuration guide written for end-users.
+* [Cloud Monitoring Runbook](runbook.md) – Operational documentation designed for Cloud Engineers and SRE teams to monitor system infrastructure.
+* [API Documentation](api-documentation.md) – A clear reference guide detailing endpoints, sample payloads, and status codes.
+* [Troubleshooting Guide](troubleshooting.md) – A logical, symptom-to-resolution document designed to isolate and fix connectivity issues.
+* [Release Notes](release-notes.md) – A changelog documenting new features, bug fixes, and known issues for system updates.
+* [About Me](about-me.md) – An overview of my technical background, core skills, and documentation philosophy.
 
-- Technical Writing
-- Markdown
-- Git & GitHub
-- AWS
-- Azure
-- Python
-- SQL
-- Docs as Code
+## Core Technical Skills
+
+* **Documentation Methodologies:** Docs-as-Code, Information Architecture, Task-Oriented Writing, Technical Editing.
+* **Tools & Platforms:** Git, GitHub, Markdown, AWS Console, Azure Portal.
+* **Technologies & Languages:** Python, SQL, Cloud Infrastructure Monitoring.
 
 ## Contact
 
-- LinkedIn: https://linkedin.com/in/your-profile
-- GitHub: https://github.com/Fermorga
+* LinkedIn: https://linkedin.com/in/your-profile
+* GitHub: https://github.com/Fermorga
