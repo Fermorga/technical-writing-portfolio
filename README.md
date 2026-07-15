@@ -22,4 +22,4 @@ As a Computer Science Engineering graduate with cloud infrastructure experience,
 ## Contact
 
 * LinkedIn: https://www.linkedin.com/in/fernanda-moreno-a02322334/
-* GitHub: https://github.com/Fermorga
+
