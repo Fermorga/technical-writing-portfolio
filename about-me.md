@@ -15,7 +15,7 @@ I'm a Computer Science Engineering graduate who loves taking messy, complex tech
 ### A Quick Look at My Journey
 
 **SRE Intern | Trimble**  
-* Teamed up with cloud engineers in an Agile setup to write operational procedures, user guides, and system documentation.
+* Teamed up with cloud engineers in an Agile setup to work with cloud technologies such as AWS, Azure, and writing Python scripts.
 
 **Freelance Technical Translator | Certified Spanish-English**  
 * Translated technical and legal documents, making sure all the industry-specific jargon and layout rules stayed perfectly intact.
@@ -27,7 +27,7 @@ I'm a Computer Science Engineering graduate who loves taking messy, complex tech
 When I am not deep in cloud architecture or technical writing, you can usually find me focusing on a few of my favorite hobbies:
 * **Reading:** I love diving into books, which naturally keeps me curious and constantly helps me refine my own writing style.
 * **Learning New Languages:** I genuinely enjoy picking up new languages. It is a challenge that keeps my brain sharp and gives me a great global perspective when designing documentation for international audiences.
-* **Listening to British Pop Music:** I love tuning into British pop music, which is my favorite way to unwind, find focus, and get energized while working or brainstorming.
+* **Listening to British Pop Music:** I love tuning into British pop music, which is my favorite way to unwind, find focus, and get energized.
 
 ---
 
