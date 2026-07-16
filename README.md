@@ -1,6 +1,6 @@
 # Technical Writing Portfolio - Fernanda Moreno
 
-Welcome to my technical writing portfolio. This repository contains documentation samples demonstrating my ability to translate technical concepts, architectures, and procedures into clear, structured, and user-centric documentation.
+Welcome to my technical writing portfolio. This repository contains documentation samples demonstrating my abilityand learning to translate technical concepts, architectures, and procedures into clear, structured, and user-centric documentation.
 
 As a Computer Science Engineering graduate with cloud infrastructure experience, I specialize in bridging the gap between complex engineering environments and end-users. This portfolio showcases a Docs-as-Code approach using Markdown and version control.
 
